@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" media="screen" href="resources/css/styles.css" />
+    <link rel="stylesheet" href="resources/css/queries.css">
+    <title>Bryan | portifolio</title>
+  </head>
+  <!-- body section -->
+  <body>
+    <!-- Header --> 
+    <!-- Navbar -->
+    <header class="navbar">
+      <a href="index.html" > <img class="logo-md" src="resources/images/tsl.png" alt="logo" ></a>
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html" >Home</a>
+        <a href="about.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="blog.html" >Blog</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <!-- Hamburger Button -->
+      <button class="hamburger" id="hamburger">☰</button>
+    </header>
+
+    <!-- Overlay -->
+    <div class="overlay" id="overlay"></div>
+
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar">
+      <button class="close-btn" id="closeBtn">&times;</button>
+      <a href="index.html" >Home</a>
+      <a href="about.html">About</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="blog.html" >Blog</a>
+      <a href="contact.html">Contact</a>
+    </aside>
+
+    <!-- Hero -->
+    <section class="portifolio-hero" aria-labelledby="hero-title">
+      <h4 id="hero-title">Insights & Ideas</h4>
+      <p>Sharp, practical notes on IT, automation, AI, and business operations.</p>
+    </section>
+
+    <!-- Controls: Search + Category Chips -->
+    <section class="controls" aria-labelledby="controls-title">
+      <h2 id="controls-title" class="sr-only" style="position:absolute;left:-9999px">Filters</h2>
+      
+      <div class="search">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M21 21l-4.3-4.3M10.5 18a7.5 7.5 0 1 1 0-15 7.5 7.5 0 0 1 0 15z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+        <label for="q" class="sr-only" style="position:absolute;left:-9999px">Search posts</label>
+        <input id="q" type="search" placeholder="Search posts… (e.g., automation, AI)" aria-label="Search posts" />
+      </div>
+      
+      <div class="chips " role="tablist" aria-label="Categories">
+        <button class="chip active"  data-filter="all"  data-tab="tab1" role="tab" aria-selected="true">General</button>
+        <button class="chip " data-filter="Tech" data-tab="tab2" role="tab2">Tech</button>
+        <button class="chip " data-filter="AI" data-tab="tab3" role="tab3">AI</button>
+        <button class="chip " data-filter="Business" data-tab="tab4" role="tab">Business</button>
+        <button class="chip " data-filter="Agribusiness" data-tab="tab5" role="tab">Agribusiness</button>
+      </div>
+    </section>
+
+      <!-- Posts list -->
+    <section class="list" id="posts">
+          
+      <article id="tab1"  class="post active" data-category="IT" data-title="IT">
+        <div class="thumb" aria-hidden="true">General</div>
+          <div class="blog">
+            
+              <div class="post-content">
+                <div class="meta">General • Aug 2025 • 4 min read</div>
+                <h3><a href="#"><strong>A Tribute of Gratitude &amp;  appreciation</strong></a></h3>
+                 <p>
+                  <span class="drop-cap">L</span>
+                  ife is not a solo journey. It is shaped, nurtured, made meaningful and defined by the people who cross our path.
+                  Some walk with us for only a season, while others remain for a lifetime. Yet each, in their own way, leaves behind 
+                  an imprint that never fades. Along my path, there have been individuals whose presence, kindness, wisdom, and encouragement 
+                  have left an everlasting imprint on my life. Today, I honor the people whose presence whether near or far,
+                  past or present continues to guide and strengthen me.  
+                </p>
+                    <ul>
+                      <li>
+                        <p>
+                          🙏 In loving memory of my dad <i> late Kabuye Sunday</i>, whose strength, discipline, and quiet wisdom continue to echo in the choices I make to date. I carry your legacy with pride.
+                        </p>
+                    </li>
+                    <li>
+                          <p>
+                            🙏 To my <i>cousins</i>, whose love has been both comfort and encouragement. You remind me that family is not just about blood but about standing together in all seasons </li>
+                     
+                          </p> 
+                        <li>
+                        <p>
+                          🙏 To my mentor late <i>Watiti Kenneth</i>, who opened my eyes to possibilities I had never seen you planted seeds of vision and courage that still bear fruit in my life.</li>
+                       </p>
+                      <li>
+                        <p>
+                          🙏 To my <i>grandparents</i>, the foundation of our family, whose resilience and values still guides me. You showed me what it means to live with purpose, faith, and dignity.</li>
+                        </p>
+                       <li> 
+                        <p>🙏 And to my <i>friends</i> , both past and present, who have offered laughter, counsel, and unwavering support. You make the road lighter and the journey richer.
+                          This is more than just a decorated piece of text, it is a tribute of appreciation. Though some are no longer here physically, their love and influence remain alive within me. I walk forward carrying your lessons, your hopes, and your spirit. Determined to honor you in the way I live my life.</li>
+                        </p>
+                      </ul>
+                 <p><strong>With 💙 love, respect, and eternal gratitude. Thank you.</strong></p>
+                  
+              </div>
+              <span class="tag  read-more-btn">Read more</span>
+            <!-- <div class="inline actions">
+                <span class="tag">#General</span>
+                <a class="btn" data-target="extra-text-3" href="tab1"></a>
+            </div> -->
+          </div>
+      </article>
+
+      <article id="tab2" class="post" data-category="Tech" data-title="Tech">
+        <div class="thumb" aria-hidden="true">Tech</div>
+        <div>
+          <div class="meta">Tech • Jul 2025 • 30 sec read</div>
+          <h3><a href="#">Turn operations pain points into quick wins</a></h3>
+          <p>How to spot and automate repetitive admin tasks that save hours weekly.</p>
+          <span class="tag  read-more-btn">Read more</span>
+          <!-- <div class="inline actions">
+            <span class="tag">#Tech</span>
+            <a class="btn" data-target="extra-text-3" href="tab2">Read</a>
+          </div> -->
+        </div>
+      </article>
+
+    
+      <article id="tab3" class="post" data-category="AI" data-title="AI">
+        <div class="thumb" aria-hidden="true">AI</div>
+          <div class="blog">
+            <div class="post-content">
+              <div class="meta">AI • Sep 2025 • 5 min read</div>
+              <h3><a href="#"> <strong>How Budget Phones Are Leveling Up Everyday Life</strong></a></h3>
+              <p>Gen Z Superpowers: How Budget Phones Are Leveling Up Everyday Life
+
+                The Everyday Reality
+                Most Ugandan Gen Z don’t walk around with iPhones worth millions of shillings. Instead, it’s the Infinix, Tecno, Itel, and mid-range Samsungs that fill pockets and handbags. But here’s the twist: these so-called budget phones are not just phones anymore. They’re becoming superpower gadgets powered by artificial intelligence (AI).
+                <br>
+                And whether you’re at campus, in town, or running a side hustle, your phone might already be doing more for you than you realize.
+                  <br>
+                <b>Your Phone, Your Silent Assistant 🤳</b> 
+              </p>
+                <ul>
+                  <li>
+                    <p>
+                       Sharper selfies → That night-time group photo at Chicken Tonight? AI quietly cleans up the image, brightens your faces, and makes it Instagram-ready.  
+
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                       Battery saver → You know those long nights when UMEME disappears? AI is already learning your usage patterns and stretching that last 20%.  
+                    </p>
+
+                  </li>
+                  <li>
+                      <p>
+                       Smart communication → Some phones can now translate Luganda ↔ English instantly. Others suggest replies when you’re too tired to text back.  
+
+                      </p>
+                  </li>
+                  <li>
+                    <p>
+                       Data manager → With bundles always burning fast, AI works behind the scenes to help apps use less internet.  
+
+                    </p>
+                  </li>
+                </ul>
+                <p>
+                  It’s like carrying a tiny assistant in your pocket — one that never complains.
+                  <br>
+                  Why Gen Z Should Care ✨
+                  <br>
+                  Ugandan Gen Z is known for hustle and creativity. Whether it’s selling clothes on IG, dropping TikTok skits, or running a small delivery service, tech is the backbone.
+                  <br>
+                </p>
+                
+                <ul>
+                  <li>
+                    <p>
+                      For hustlers → Your WhatsApp shop can auto-reply to customers, even while you’re in class.  
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      For creatives → Apps like CapCut use AI to cut, trim, and add effects — so your video looks pro without a laptop.  
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                     For students → Free AI tutors can explain algebra, write summaries, or even suggest side hustle ideas.  
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      For fitness freaks → A Kikuubo smartwatch reminding you to drink water? That’s AI too.  
+                    </p>
+                  </li>
+                </ul>
+                <br>
+                <p>
+                  In short: the tools that once cost millions are now in affordable phones many Ugandan youths already own.
+                  <br>
+                  But Let’s Be Real 🤔
+                  <br>
+                  Of course, it’s not all smooth: 
+                </p> 
+                <br>
+                <ul>
+                  <li>
+                    <p>
+                       Cost vs access → Even budget AI phones stretch some wallets. 
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                       Data bundles → AI works best online, but bundles finish faster than chapati in a hostel.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                       Privacy → Every app wants your data, and many Gen Z don’t fully know where it all goes. Staying cyber-aware is part of the game. 
+                    </p>
+                  </li>
+                </ul>
+                <br>
+              <p>
+                The Bigger Picture 🚀
+                <br>
+                Uganda might not yet have robot waiters or self-driving taxis, but the AI wave is already here — in the phones, wearables, and apps Gen Z use every day. The question isn’t if you’ll interact with AI, but how you’ll use it.
+                <br>
+                Will it just be for vibes and selfies? Or will you flip it into a hustle, an idea, or a new lifestyle upgrade?
+                <br>
+                👉 Because truth is: Gen Z’s real superpower isn’t the phone itself —  it’s how you use it.
+                
+              </p>
+            </div>
+              
+              <span class="tag  read-more-btn">Read more</span> 
+              <!-- <div class="inline actions">
+                <span class="tag">#AI </span>
+                <a class="btn" href="#">Read</a>
+              </div> -->
+          </div>
+      </article>
+
+      <article id="tab4" class="post" data-category="Business" data-title="Business">
+        <div class="thumb" aria-hidden="true">Business</div>
+        <div>
+        <div class="meta">Business • May 2025 • 1 min read</div>
+        <h3><a href="#">Cold emails with AI that people reply to</a></h3>
+        <p>Turn messy value propositions into concise, relevant outreach using structured prompts.</p>
+        <span class="tag  read-more-btn">Read more</span>
+        <!-- <div class="inline actions">
+          <span class="tag">Business</span>
+          <a class="btn" href="tab4">Read</a>
+        </div> -->
+        </div>
+      </article>
+
+      <article id="tab5" class="post" data-category="Agribusiness" data-title="Agribusiness">
+        <div class="thumb" aria-hidden="true">Agribusiness</div>
+          <div class="blog">
+            
+              <div class="post-content">
+                <div class="meta">Agribusiness • Aug 2025 • 4 min read</div>
+                <h3><a href="#"><strong>Why Agribusiness could be Uganda’s Hidden Goldmine for Gen Z </strong></a></h3>
+                 <p>
+                  <span class="drop-cap">W</span>
+                  hy This Matters 🚜
+                  When most Gen Z in Uganda think of farming, they imagine their grandparents in gumboots, digging under the hot sun. But agribusiness today is much bigger — and smarter. It’s no longer just about “digging” but about creating wealth from food, innovation, and supply chains.
+                  <br>
+                  The New Face of Agribusiness 👩🏽‍💻🌽
+                  Uganda’s fertile soils and youthful energy make it a perfect combo. But unlike the old days, the modern agribusiness wave is powered by: <br>
+                  - Tech farming → Using drones, sensors, and mobile apps to monitor crops and livestock.<br>
+                  - Value addition → Turning maize into flour, milk into yogurt, or cassava into starch instead of selling raw.<br>
+                  - Online markets → Selling farm produce directly on Jumia Food, WhatsApp, or even TikTok.<br>
+                  - Creative branding → Imagine launching a trendy organic juice brand or packaging sweet potatoes as a healthy snack.
+                  <br>
+                  Why Gen Z Should Care 💡
+                  <br>
+                  1. Job creation → With few formal jobs, agribusiness offers limitless space for youth-led startups.<br>
+                  2. Quick money opportunities → Brokering produce (like eggs, avocados, or matooke) pays faster than waiting on an office salary.<br>
+                  3. Global demand → Organic Ugandan produce is highly sought after abroad.<br>
+                  4. Sustainability → Farming + eco-conscious branding = impact + income.<br>
+                  
+                  Tools Already in Your Pocket 📱<br>
+                  - YouTube tutorials → Learn how to raise pigs, start poultry, or manage a greenhouse.<br>
+                  - Mobile money → Receive payments instantly when you supply farm products.<br>
+                  - Social media → Market your agribusiness like a pro with reels, TikToks, and memes.<br>
+                  - E-commerce platforms → List produce online and skip the middlemen.<br>
+
+                  Challenges (But Not Deal Breakers) 🚧<br>
+                  - Capital → Start small with side hustles like poultry, mushrooms, or piggery. Scale up with savings or youth loans.<br>
+                  - Market access → Use digital platforms to reach buyers directly.<br>
+
+                </p>
+                  
+              </div>
+              <span class="tag  read-more-btn">Read more</span>
+            
+          </div>
+    </article>
+    </section>
+  
+    <!-- footer -->
+    <footer class="footer">
+      <!-- update with svg image -->
+      <div class="footer-logo">
+        <a href="index.html" > <img class="logo-sm" src="resources/images/tsl.png" ></a>
+        
+      </div>
+      <div>
+        <div class="useful-links">useful links</div>
+      </div>
+      <ul class="site-map">
+        <li><a class="flex-item" href="index.html">Home</a></li>
+        <li><a class="flex-item" href="about.html">About</a></li>
+        <li><a class="flex-item" href="portfolio.html">Portfolio</a></li>
+        <li><a class="flex-item" href="blog.html">Blog</a></li>
+        <li><a class="flex-item" href="contact.html">Contact me</a></li>
+      </ul>
+
+      <div class="horizontal-line"></div>
+
+      <!-- footer-lower section -->
+      <div class="footer-lower-section">
+
+        <p class="small-text">Copyright © 2010-2023 technology saints ltd Company. All rights reserved.</p>
+        
+        <ul class="footer-links">
+          <li><a class="flex-item" href="www.ffacebook.com"><img class="social-icons" src="resources/images/facebook-svgrepo-com.svg" alt="facebook logo"></a></li>
+          <li><a class="flex-item" href="www.whatsapp.com"><img class="social-icons" src="resources/images/whatsapp-128-svgrepo-com.svg" alt=" Whatsapp logo"></a></li>
+          <li><a class="flex-item" href="www.twitter.com"><img class="social-icons" src="resources/images/twitter-svgrepo-com.svg" alt="twitter logo"></a></li>
+          <li><a class="flex-item" href="www.messenger.com"><img class="social-icons" src="resources/images/messages-svgrepo-com.svg" alt="messanger logo"></a></li>
+          <li><a class="flex-item" href="www.gmail.com.com"><img class="social-icons" src="resources/images/mail-pencil-svgrepo-com.svg" alt="email logo"></a></li>
+        </ul>
+          
+      </div>
+    </footer>
+    <script src="resources/js/app.js"></script>
+  </body>
+</html>

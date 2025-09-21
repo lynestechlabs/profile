@@ -1,0 +1,123 @@
+/* select the break even points later */
+
+/* Xs	 */
+@media (max-width: 56rem){
+    /* screen size 897/16px=current screen value rem */
+    html{
+        font-size: 56.25%;
+    }
+
+}
+
+/* big tablets */
+@media (max-width: 56.4375rem) {
+  /* 903px/16=56.4375rem */
+  .nav-links {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+  /* index */
+    .sevice-cards{
+    margin-top: .5rem;
+    padding: .6rem;
+    
+  }
+  .product-card {
+    width: 40%;
+    margin: 1rem;
+    padding: 1rem;
+    transition: all 0.3s ease;
+    
+  }
+  /* about */
+  .profile-grid{ 
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap:15rem; 
+  column-gap: 1rem;
+  align-items:start;
+  margin: 1rem 1.4rem;
+ }
+
+}
+/* small tablet */
+@media (max-width: 49.875rem){
+  /* 798px/16=49.875 */
+  html{
+        font-size: 50%;
+    }
+}
+
+/* Mobile potrait */
+@media (max-width: 36.125rem){
+  /* 576px/16= potrait */
+  html{
+        font-size: 40%;
+    }
+    .sevice-cards{
+      display: flex;
+      flex-direction:column;
+      justify-content:center;
+      /* margin-top: .1rem; */
+      /* padding: .1rem; */
+      align-items:flex-start;
+      }
+      /* .product-card img {
+        width: 100%;
+        max-width: 10%;
+        border-radius: 50%;
+        align-items: start;
+        margin: 1rem 0.5rem;
+
+        } */
+
+      .product-card {
+        width: 100%;
+        margin: 2rem;
+        padding: 2rem;
+        /* border: 1px solid #ddd; */
+        border-radius: 5px;
+        background-color: var(--tint-grey); 
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        transition: all 0.3s ease;
+      }
+      /* i was working on the drid for about page image was removed as i was finding a way forward to make one column */
+     /* about */
+      .profile-grid{ 
+        display:grid;
+        grid-template-columns: 1fr;
+        row-gap:1rem; 
+        align-items:start;
+        margin: 2rem 1rem;
+      }
+      /* portifolio */
+        .portfolio-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1.4rem;
+        width: 75%;
+        margin: .5rem auto;
+    }
+    /* blog */
+      .search,.chips{ 
+        padding:.5rem 2rem;
+      }
+      .list{
+            margin-bottom: 1rem;     
+      }
+
+      /* contact */
+      .contact-infor {
+        flex-direction: column;
+      }
+    }
+
+/* read more about conversion */
+/* Sm	 */
+/* Md	 */
+/* Lg	 */
+/* Xl	 */
+/* 2xl */
